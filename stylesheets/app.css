@@ -8429,7 +8429,7 @@ th.hide-for-touch {
   color: #fff;
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 footer {
   text-align: center;
   padding: 30px 0;
@@ -8437,28 +8437,54 @@ footer {
   background: #008cba;
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 .graphic-design {
   background: #fff;
 }
-/* line 109, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .graphic-design h2 {
   color: #555555;
 }
-/* line 113, ../scss/_custom.scss */
+/* line 112, ../scss/_custom.scss */
 .graphic-design h3, .graphic-design h4, .graphic-design h5, .graphic-design h6 {
   color: #fff;
 }
 
-/* line 122, ../scss/_custom.scss */
+/* line 117, ../scss/_custom.scss */
+.graphic-design-full li {
+  list-style-type: none;
+}
+
+/* line 121, ../scss/_custom.scss */
+.graphicdesigntitle {
+  text-align: center;
+  padding: 20px auto;
+}
+/* line 125, ../scss/_custom.scss */
+.graphicdesigntitle h5 {
+  color: #555;
+}
+
+/* line 131, ../scss/_custom.scss */
+.graphicfull {
+  padding: 70px auto;
+}
+
+/* line 135, ../scss/_custom.scss */
+.graphicfull-2 {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+/* line 144, ../scss/_custom.scss */
 .web-design {
   background: #fff;
 }
-/* line 125, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .web-design h2 {
   color: #555555;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 151, ../scss/_custom.scss */
 .web-design h3, .web-design h4, .web-design h5, .web-design h6 {
   color: #fff;
 }
