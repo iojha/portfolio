@@ -89,6 +89,7 @@
 }
 
 
+
 //FOOTER
 
 footer {
@@ -102,7 +103,7 @@ footer {
 
 //GRAPHIC-DESIGN PAGE
 
-.graphic-design {
+.graphic-design{
   background: #fff;
 
   h2 { 
@@ -111,32 +112,45 @@ footer {
 
   h3, h4, h5, h6 {
     color: #fff;
-  }
+    }
 }
 
 .graphic-design-full li {
   list-style-type: none;
 }
 
-.graphicdesigntitle {
-  text-align: center;
-  padding: 20px auto;
-
-    h5 {
-    color: #555;
-    }
+.graphic-design .web-design .work-title {
+  color: #fff;
 }
 
 
+//GRAPHICDESIGNPAGE STYLING
+
 .graphicfull {
-  padding: 70px auto;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  width: 600px;
+  position: relative;
+  left: 20%;
 }
 
 .graphicfull-2 {
   padding-top: 40px;
   padding-bottom: 70px;
+  width: 600px;
+  position: relative;
+  left: 20%;
+
+}    
+
+.graphicdesign-title {
+  padding-top: 20px;
+  margin: 0 0 !important;
 }
 
+.graphicdesign-description h3, h4, h5, h6{
+  color: #555555 !important;
+}
 
 
 //WEB-DESIGN PAGE
@@ -153,5 +167,13 @@ footer {
   }
 }
 
+//CONTACT PAGE
 
+.contact-info {
+  padding-top: 50px;
+
+    h3 {
+    color: #555555;
+    }
+}
 //ABOUT PAGE

@@ -17,25 +17,23 @@
       <dl class="sub-nav">
         <dd data-magellan-arrival="nav-logo" class="left"><a href="index.html"><img src="img/logo2.png" width="50px"></a></dd>
         <dd data-magellan-arrival="nav-contact" class ="right"><a href="contact.html">Contact</a></dd>        
+        <dd data-magellan-arrival="nav-about" class="right"><a href="about.html">About</a></dd>
         <dd data-magellan-arrival="nav-graphic" class ="right"><a href="graphic.html">Graphic Design</a></dd>
         <dd data-magellan-arrival="nav-web" class ="right"><a href="web.html">Web Design</a></dd>
 
       </dl>
     </div>
 
-    <!--Block Grid Section: Graphic Design Work-->    
+    <!--Contact Info Section-->    
     
-    <div class="web-design">
-
-        </div>
-        <div class="row">
-          <div class="small-12 columns"> 
-              <img src="img/lead411full.png">
-          </div>
-        </div>      
-        
+    <div class="row">
+      <div class="contact-info">
+        <h3>Isha Ojha</h3>
+        <h6>Phone: 310.874.0387</h6>
+        <h6>Email: isha.ojha@gmail.com</h6>
 
     </div>
+
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
