@@ -8350,7 +8350,7 @@ th.hide-for-touch {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0 100px 0;
+  padding: 50px 0 200px 0;
   width: 100%;
   text-align: center;
   position: relative;
@@ -8432,31 +8432,33 @@ th.hide-for-touch {
 /* line 95, ../scss/_custom.scss */
 footer {
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
+  color: #fff;
+  background: #008cba;
 }
 
-/* line 104, ../scss/_custom.scss */
+/* line 106, ../scss/_custom.scss */
 .graphic-design {
   background: #fff;
 }
-/* line 107, ../scss/_custom.scss */
+/* line 109, ../scss/_custom.scss */
 .graphic-design h2 {
   color: #555555;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .graphic-design h3, .graphic-design h4, .graphic-design h5, .graphic-design h6 {
   color: #fff;
 }
 
-/* line 120, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 .web-design {
   background: #fff;
 }
-/* line 123, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .web-design h2 {
   color: #555555;
 }
-/* line 127, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .web-design h3, .web-design h4, .web-design h5, .web-design h6 {
   color: #fff;
 }
