@@ -1,0 +1,133 @@
+//HOMEPAGE
+
+//Hero
+
+.hero {
+  background: $primary-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 100px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+//Logo
+
+.logo {
+  margin-bottom: 30px;
+}
+
+//Tag-line Styles
+
+.tag-line {
+  margin: 70px auto;
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px 10px;
+}
+
+//CTA-Buttons Graphic Design, Web and About
+
+#cta {
+  margin: 30px 40px;
+  opacity: .7;
+  width: 200px;
+  border-radius: 2px;
+
+    a {
+      color: #fff;
+      }
+}
+
+.portfolio-type h2 {
+  color: #0e0e0e;
+}
+
+//Sub-Nav for Web, Graphic and About Pages
+
+.sub-nav {
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,0.8);
+  border-bottom-width: 2px;
+  background-color: #0e0e0e;
+  padding: 20px 5%;
+  margin-bottom: 100px;
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav{
+  margin-bottom: 60px;
+}
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+  color: #fff;
+}
+
+.suv-nav a {
+  vertical-align: bottom;
+}
+
+//Title Style
+
+.portfolio-type{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+//Block styling
+
+
+.work-title {
+  text-align: center;
+}
+
+.block:hover .work-title {
+    background-color: #0e0e0e;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+//FOOTER
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+
+//GRAPHIC-DESIGN PAGE
+
+.graphic-design {
+  background: #fff;
+
+  h2 { 
+    color: #555555;
+  }
+
+  h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+
+
+//WEB-DESIGN PAGE
+
+.web-design {
+  background: #fff;
+
+  h2 { 
+    color: #555555;
+  }
+
+  h3, h4, h5, h6 {
+    color: #fff;
+  }
+}
+
+
+//ABOUT PAGE
