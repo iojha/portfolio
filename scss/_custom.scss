@@ -35,7 +35,7 @@ body {
 
 //CTA-Buttons Graphic Design, Web and About
 
-#cta {
+.cta {
   margin: 30px 40px;
   opacity: .7;
   width: 200px;
@@ -84,22 +84,33 @@ body {
 //Block styling
 
 
-.work-title {
+.about-work, .work-title {
   text-align: center;
 }
 
-.block:hover .work-title {
+.block:hover .about-work  {
     background-color: #0e0e0e;
     text-align: center;
-    color: #fff;
+
+    h2,h3,h4,h5, h6 {
+    color: #fff !important;
+    }
 }
 
+.work-title {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
 
+.about-work {
+  padding-bottom: 20px;
+}
 
 //FOOTER
 
 footer {
   text-align: center;
+  width: 100%;
   padding: 30px 0;
   position: relative;
   bottom: 0px;

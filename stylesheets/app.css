@@ -8374,14 +8374,14 @@ body {
 }
 
 /* line 38, ../scss/_custom.scss */
-#cta {
+.cta {
   margin: 30px 40px;
   opacity: .7;
   width: 200px;
   border-radius: 2px;
 }
 /* line 44, ../scss/_custom.scss */
-#cta a {
+.cta a {
   color: #fff;
 }
 
@@ -8423,20 +8423,35 @@ body {
 }
 
 /* line 87, ../scss/_custom.scss */
-.work-title {
+.about-work, .work-title {
   text-align: center;
 }
 
 /* line 91, ../scss/_custom.scss */
-.block:hover .work-title {
+.block:hover .about-work {
   background-color: #0e0e0e;
   text-align: center;
-  color: #fff;
+}
+/* line 95, ../scss/_custom.scss */
+.block:hover .about-work h2, .block:hover .about-work h3, .block:hover .about-work h4, .block:hover .about-work h5, .block:hover .about-work h6 {
+  color: #fff !important;
 }
 
-/* line 101, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
+.work-title {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+/* line 105, ../scss/_custom.scss */
+.about-work {
+  padding-bottom: 20px;
+}
+
+/* line 111, ../scss/_custom.scss */
 footer {
   text-align: center;
+  width: 100%;
   padding: 30px 0;
   position: relative;
   bottom: 0px;
@@ -8444,30 +8459,30 @@ footer {
   background: #008cba;
 }
 
-/* line 114, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .graphic-design {
   background: #fff;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 .graphic-design h2 {
   color: #555555;
 }
-/* line 121, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .graphic-design h3, .graphic-design h4, .graphic-design h5, .graphic-design h6 {
   color: #fff;
 }
 
-/* line 126, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 .graphic-design-full li {
   list-style-type: none;
 }
 
-/* line 130, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .graphic-design .web-design .work-title {
   color: #fff;
 }
 
-/* line 137, ../scss/_custom.scss */
+/* line 148, ../scss/_custom.scss */
 .graphicfull {
   padding-top: 30px;
   padding-bottom: 70px;
@@ -8476,7 +8491,7 @@ footer {
   left: 20%;
 }
 
-/* line 145, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .graphicfull-2 {
   padding-top: 40px;
   padding-bottom: 70px;
@@ -8485,35 +8500,35 @@ footer {
   left: 20%;
 }
 
-/* line 154, ../scss/_custom.scss */
+/* line 165, ../scss/_custom.scss */
 .graphicdesign-title {
   padding-top: 20px;
   margin: 0 0 !important;
 }
 
-/* line 159, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 .graphicdesign-description h3, h4, h5, h6 {
   color: #555555 !important;
 }
 
-/* line 166, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 .web-design {
   background: #fff;
 }
-/* line 169, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .web-design h2 {
   color: #555555;
 }
-/* line 173, ../scss/_custom.scss */
+/* line 184, ../scss/_custom.scss */
 .web-design h3, .web-design h4, .web-design h5, .web-design h6 {
   color: #fff;
 }
 
-/* line 180, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 .contact-info {
   padding-top: 50px;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 .contact-info h3 {
   color: #555555;
 }
